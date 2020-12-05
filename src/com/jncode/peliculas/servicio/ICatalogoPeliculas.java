@@ -10,6 +10,10 @@ public interface ICatalogoPeliculas {
     
     void agregarPelicula(String nombrePelicula);
     
+    void listarPeliculas();
     
+    void buscarPelicula(String buscar);
+    
+    void iniciarCatalogoPeliculas();
     
 }
